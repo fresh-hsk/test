@@ -1,0 +1,23 @@
+body {
+	background-image: url(1.jpg);
+	background-size: cover;
+}
+.menu {
+	margin-left: 45%;
+	margin-top: 20%;
+}
+.button {
+	color: red;
+	font-weight: 700;
+	text-decoration: none;
+	user-select: none;
+	outline: none;
+	border: 1px solid;
+	border-radius: 1px;
+	transition: 0.333s;
+	size: 10px;
+	width: 150px;
+	height: 45px;
+}
+.button:hover { background: #90A1B0; }
+.button:active { background: pink; }
